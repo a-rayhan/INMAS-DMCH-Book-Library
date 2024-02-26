@@ -237,6 +237,10 @@ server.post("/get-book", (req, res) => {
         })
 })
 
+server.get('/', async (req, res) => {
+    res.send('INMAS book server is running')
+})
+
 server.listen(PORT, () => {
     console.log("Listening on port" + PORT);
 })
