@@ -1,0 +1,6 @@
+POST http://localhost:3000/get-book
+Content-Type: application/json
+
+{
+     "book_id": "InmasundefinedDMCHKBpLcTWhn9CEIjBho6jdz"
+}
